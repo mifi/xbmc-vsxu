@@ -6,7 +6,7 @@ VSXu visualization for XBMC
 Requirements
 ============
 * XBMC
-* VSXu
+* VSXu (Tested with 0.4.2)
 
 See https://github.com/vovoid/vsxu for how to install VSXu
 
