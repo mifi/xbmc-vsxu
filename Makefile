@@ -1,6 +1,6 @@
 CC=g++
 CFLAGS=-fPIC -Wall -c `pkg-config --cflags libvsxu`
-LDFLAGS=-shared `pkg-config --libs libvsxu`
+LDFLAGS=-shared -Wl,--no-as-needed `pkg-config --libs libvsxu`
 OUTLIB=vsxu.vis
 PREFIX=/usr
 
